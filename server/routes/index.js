@@ -60,13 +60,6 @@ function puppyValidationCheck(puppyName, puppyId) {
 
 }
 
-// router.post('/person', function(req, res, next) {
-//   var personInputName = req.body.personName;
-//   var personHobby = req.body.hobby;
-//   console.log(personInputName);
-//   console.log(personHobby);
-//   res.send('yo');
-// });
 
 router.post('/person', function(req,res, next) {
 
